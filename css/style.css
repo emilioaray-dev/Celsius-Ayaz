@@ -1,0 +1,47 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+
+figure {
+  display: grid;
+  justify-items: center;
+}
+
+#title {
+  display: grid;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: #c3c3c3;
+  height: 4em;
+  margin-block-start: 0;
+}
+
+#image {
+  width: 50%;
+}
+
+#main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin-top: 0.5rem;
+}
+
+article {
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  #image {
+    width: 100%;
+  }
+}
